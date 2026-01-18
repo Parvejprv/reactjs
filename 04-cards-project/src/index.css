@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica neue", sans-serif;
+}
+html,
+body {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+}
+.parent {
+  width: 100%;
+  background-color: #333;
+  padding: 3vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+.card {
+  color: #111;
+  height: 300px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card .top img {
+  padding: 3px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+}
+.top button {
+  cursor:pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: transparent;
+  color: #b1b1b1;
+}
+.top button:hover {
+  background-color: cadetblue;
+  color: #b1b1b1;
+}
+
+.center h3 {
+  font-size: 15px;
+  font-weight: 500;
+}
+.center h3 span,
+.bottom .billable p {
+  font-size: 10px;
+  color: #b1b1b1;
+}
+.center h2 {
+  font-size: 18px;
+}
+.center .tag {
+  display: flex;
+  justify-content: left;
+  margin-top: 6px;
+  gap: 5px;
+}
+.center .tag h4 {
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: #eeeeee;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #b1b1b156;
+  padding-top: 15px;
+}
+.bottom .billable h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.bottom button {
+  cursor:pointer;
+  color: #fff;
+  font-weight: 400;
+  padding: 5px 8px;
+  border: 1px solid #b1b1b1;
+  border-radius: 5px;
+  background-color: #000;
+}
